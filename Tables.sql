@@ -157,9 +157,11 @@ insert into QuantMaterialLimpeza(idQuantMaterialLimpeza, quantMaterialLimpeza, i
 
 insert into Condicao(idCondicao, nomeCondicao) values(0, 'saudavel');
 insert into Condicao(idCondicao, nomeCondicao) values(1, 'em tratamento');
-insert into Condicao(idCondicao, nomeCondicao) values(2, 'infeccao-pos-parto');
+insert into Condicao(idCondicao, nomeCondicao) values(2, 'morto');
 insert into Condicao(idCondicao, nomeCondicao) values(3, 'envenenamento');
 insert into Condicao(idCondicao, nomeCondicao) values(4, 'pata-partida');
+insert into Condicao(idCondicao, nomeCondicao) values(5, 'infeccao-pos-parto');
+
 
 insert into Tratador(idTratador, nomeTratador, turnoTratador) values(1, 'Jorge', 'manha');
 insert into Tratador(idTratador, nomeTratador, turnoTratador) values(2, 'Sofia', 'manha');

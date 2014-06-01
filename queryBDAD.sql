@@ -58,7 +58,7 @@ Select nome, nomeEspecie, nomeCondicao
 From Animal, Condicao, Especie
 Where Animal.idEspecie = Especie.idEspecie AND Animal.idCondicao = Condicao.idCondicao
 GROUP BY Condicao.nomeCondicao
-HAVING (Condicao.nomeCondicao != 'saudavel' AND Condicao.nomeCondicao != 'em tratamento');
+HAVING (Condicao.nomeCondicao != 'saudavel' AND Condicao.nomeCondicao != 'em tratamento' AND Condicao.nomeCondicao != 'morto');
 
 --especie com mais tratamentos
 Select nomeEspecie, count(*) AS n_trat
